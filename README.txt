@@ -1,0 +1,1 @@
+Simple AJAX project based on component approach

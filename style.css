@@ -1,8 +1,7 @@
-.user-container {
-  display: inline-flex;
-  width: 600px;
+h1 {
+  margin-left: auto;
+  margin-right: auto;
 }
-
 .user-list {
   width: 250px;
   display: inline-block;
@@ -14,4 +13,61 @@
   display: inline-flex;
   vertical-align: top;
   justify-content: space-between;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.list-elem {
+  height: 50px;
+  padding: 10px;
+  list-style-type: none;
+  position: relative;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: rgba(245, 245, 245, 0.521)
+}
+
+.list-elem:nth-child(odd) {
+  background-color: rgba(230, 230, 230, 0.521);
+}
+
+.list-elem:hover {
+  
+   
+}
+
+.avatar-img{
+  position: absolute;
+  top: 13px;
+  left: 10px;
+  width: 25px;
+  height: 25px;
+  border-radius: 100px;
+}
+
+.list-anchor {
+  display: block;
+  padding-left: 50px;
+  font: 26px "Roboto";
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+} 
+
+.list-anchor:link { 
+  text-decoration: none;
+}
+
+.list-anchor:visited { 
+  text-decoration: none;
+  color: none;
+}
+
+.list-anchor:active { 
+  text-decoration: none;
+  font-size: 25px;
 }

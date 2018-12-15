@@ -36,7 +36,7 @@ class UserList {
         this.users = users;
         this.elem.innerHTML = _.template(`<ul>
     <% for(let user of users) {%>
-      <li><a href="#" data-user-id="<%=user._id%>"><%=user.fullName%></a></li>
+      <li class= "list-elem"><img class="avatar-img" src="<%=user.avatarUrl%>" alt="avatar"><a href="#" class="list-anchor" data-user-id="<%=user._id%>"><%=user.fullName%></a></li>
     <% } %>
     </ul>
     `)({users});

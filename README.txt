@@ -1,1 +1,1 @@
-Simple AJAX project based on component approach
+Simple project based on component approach
